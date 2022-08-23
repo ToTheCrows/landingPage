@@ -123,3 +123,38 @@ a {
     font-size: 24px;
     font-weight: bold;
 }
+
+/*  CTA Section */
+#CTA{
+    color: white;
+}
+#CTA h3 {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+#CTA p {
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.cta-box {
+    display: flex;
+    background-color: #3882F6;
+    margin: 5%;
+    padding: 3%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.btn-border {
+    color: white;
+    flex: 1;
+    border-radius: 12px;
+    padding: 6px 50px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    font-size: 24px;
+}
