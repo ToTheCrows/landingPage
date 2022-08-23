@@ -1,0 +1,42 @@
+/*  HEADER Section  */
+
+#HEADER {
+    background-color: #1F2937;
+}
+
+#HEADER h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAf8;
+}
+
+#HEADER p, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-link {
+    margin-left: auto;
+}
+
+.navbar {
+    display: flex;
+}
+
+.intro {
+    display: flex;
+}
