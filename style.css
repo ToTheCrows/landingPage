@@ -1,13 +1,29 @@
+body {
+    font-family: "Robotic",sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
 /*  HEADER Section  */
 
 #HEADER {
     background-color: #1F2937;
+    padding: 2% 10%;
 }
 
 #HEADER h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #F9FAf8;
+    padding: 0;
+    margin: 0;
 }
 
 #HEADER p, a {
@@ -35,8 +51,26 @@ a {
 
 .navbar {
     display: flex;
+    gap: 32px;
+    margin-bottom: 3rem;
 }
 
-.intro {
+.intro-box {
     display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.intro-element {
+    width: 600px;
+    height: auto;
+}
+
+.btn {
+    border-radius: 12px;
+    padding: 15px 50px;
+    color: white;
+    background-color: #3882F6;
+    border-style: none;
+    font-size: 24px;
 }
